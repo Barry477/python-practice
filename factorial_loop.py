@@ -1,4 +1,8 @@
 # Function to compute factorial using a loop 
+# start with result = 1
+# multiply result by every number from 1 to n using for loop
+# return the result after the loop
+
 def factorial_loop(n):
   result = 1
   for i in range(1, n+1):
