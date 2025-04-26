@@ -1,4 +1,7 @@
 # Function to reverse a string manually 
+# create an empty string for reversed text
+# go through each character 
+# add each character to the beginning of the new string 
 def reverse_string(s):
   reversed_s = ""
   for char in s: 
